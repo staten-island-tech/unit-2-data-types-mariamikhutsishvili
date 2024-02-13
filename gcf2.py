@@ -1,11 +1,12 @@
 def greatest_common_factor(x,y): 
-    factors = []
+    gcf = []
     for i in range(1, x+1):
         if x%i == 0 and y%i == 0:
-            factors.append(i)
-    return factors 
+            gcf.append(i)
+    return gcf[-1]
 
 x = int(input("Number:"))
 y = int(input("Second Number:"))
-print(greatest_common_factor[-1])
+gcf = greatest_common_factor(x,y)
+print("gcf is:", greatest_common_factor(x,y))
 
