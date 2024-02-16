@@ -1,1 +1,1 @@
-def last_name(l):
+def last_name():
