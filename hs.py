@@ -1,11 +1,11 @@
-
-y = int(input("first_initial of last name:"))
-z = int(input("homeroom:"))
-def first_initial(y):
-    if ((y) % 2) == 0:
-     print('even')
+y = (input("last name:")).upper()
+x = y[0]
+def first_initial(x):
+    if x == ("A"):
+     print('101')
+    elif x == ("B"):
+      print('102')
     else:
-     print('odd')
+     print('103')
 
-x = int(input("last_name"))
-
+first_initial(x)
